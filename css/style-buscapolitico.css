@@ -1,0 +1,54 @@
+#caja_busqueda
+{
+width:400px;
+height:25px;
+border:solid 2px #979DAE;
+font-size:16px;
+}
+#display
+{
+width:400px;
+display:none;
+overflow:hidden;
+z-index:10;
+border: solid 1px #666;
+}
+.display_box
+{
+padding:2px;
+padding-left:6px;
+font-size:18px;
+height:63px;
+text-decoration:none;
+color: rgb(179, 2, 2);
+
+}
+
+.display_box:hover
+{
+background: rgb(179, 2, 2);
+color: #FFF;
+
+}
+.desc
+{
+color:#666;
+font-size:16;
+}
+.desc:hover
+{
+color:#FFF;
+}
+
+
+#display
+{
+width:400px;
+display:none;
+overflow:hidden;
+z-index:10;
+border: solid 1px #666;
+position: absolute;
+top: 38px;
+background-color: white;
+}
