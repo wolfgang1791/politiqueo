@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 if($_SERVER['SERVER_NAME'] == 'localhost'){
-    $config['base_url'] = 'http://localhost/politiqueo/';
+    $config['base_url'] = 'http://localhost/politiqueo__/';
 }
 else{
     $config['base_url'] = 'https://politiqueo.herokuapp.com/';
